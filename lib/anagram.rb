@@ -8,6 +8,6 @@ class Anagram
   end
 
   def match
-    word.match 
+    words.match
   end
 end
