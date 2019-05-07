@@ -4,10 +4,10 @@ class Anagram
   attr_accessor :word
 
   def initialize(word)
-    @word = word
+    @name = word
   end
 
   def match(array)
-    array.select {|w| x.split("").sort == }
+    array.select {|w| x.split("").sort == @name.split("").uniq}
   end
 end
